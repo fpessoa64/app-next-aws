@@ -5,6 +5,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN npm install -g serverless
 
+RUN npm install -g @aws-amplify/cli
+
 WORKDIR /home/node/app
 
 USER node
