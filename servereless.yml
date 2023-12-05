@@ -1,0 +1,56 @@
+AiGent:
+  component: "@sls-next/serverless-component"
+  region: ca-central-1
+  # inputs:
+  #   domain: ["next-aws", "fala.dev"] 
+  #   bucketName: "next-aws"
+  #   memory: 512
+  #   timeout: 10
+  #   runtime: "nodejs12.x"
+  #   name: "next-aws"
+  #   stage: "dev"
+  #   apiType: "rest"
+  #   apiPath: "/api"
+  #   apiLambdaPath: "api"
+  #   apiBinaryMediaTypes: ["*/*"]
+  #   apiCors: true
+  #   apiDescription: "Next.js on AWS Lambda and API Gateway"
+  #   apiEndpointType: "regional"
+  #   apiMinimumCompressionSize: 0
+  #   apiPolicy: {}
+  #   apiUsagePlan: {}
+  #   apiUsagePlanKey: {}
+  #   apiTags: {}
+  #   apiAuth: {}
+  #   apiDomain: {}
+  #   apiDomainType: "http"
+  #   apiDomainEndpointType: "regional"
+  #   apiDomainHostedZoneId: ""
+  #   apiDomainCertificateArn: ""
+  #   apiDomainEndpointAutoDomain: true
+  #   apiDomainEndpointAutoDomainAlias: true
+  #   apiDomainEndpointAutoDomainType: "edge"
+  #   apiDomainEndpointAutoDomainHostedZoneId: ""
+  #   apiDomainEndpointAutoDomainCertificateArn: ""
+  #   apiDomainEndpointAutoDomainSecurityPolicy: "TLS_1_2"
+  #   apiDomainEndpointAutoDomainEnableWWWSubdomain: true
+  #   apiDomainEndpointAutoDomainEnableZoneApexAlias: true
+  #   apiDomainEndpointAutoDomainTags: {}
+  #   apiDomainEndpointAutoDomainApiType: "rest"
+  #   apiDomainEndpointAutoDomainApiPath: "/api"
+  #   apiDomainEndpointAutoDomainApiLambdaPath: "api"
+  #   apiDomainEndpointAutoDomainApiBinaryMediaTypes: ["*/*"]
+  #   apiDomainEndpointAutoDomainApiCors: true
+  #   apiDomainEndpointAutoDomainApiDescription: "Next.js on AWS Lambda and API Gateway"
+  #   apiDomainEndpointAutoDomainApiEndpointType: "regional"
+  #   apiDomainEndpointAutoDomainApiMinimumCompressionSize: 0
+  #   apiDomainEndpointAutoDomainApiPolicy: {}
+  #   apiDomainEndpointAutoDomainApiUsagePlan: {}
+  #   apiDomainEndpointAutoDomainApiUsagePlanKey: {}
+  #   apiDomainEndpointAutoDomainApiTags: {}
+  #   apiDomainEndpointAutoDomainApiAuth: {}
+  #   apiDomainEndpointAutoDomainApiDomain: {}
+  #   apiDomainEndpointAutoDomainApiDomainType: "http"
+  #   apiDomainEndpointAutoDomainApiDomainEndpointType:
+  # inputs:
+  #   domain: ["next-aws", "fala.dev"] 

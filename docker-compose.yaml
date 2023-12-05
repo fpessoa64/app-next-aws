@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - 3001:3000
+    volumes:
+      - .:/home/node/app
+      
+    networks:
+      - easycode-network
+      
+
+  # db:
+  #   image: mysql
+  #   environment:
+  #     - MYSQL_ROOT_PASSWORD=root
+  #     - MYSQL_DATABASE=chat
+  #   volumes:
+  #     - .docker/dbdata:/var/lib/mysql
+  #   networks:
+  #     - easycode-network
+      
+
+
+networks:
+  easycode-network:
+    external: true
+    
